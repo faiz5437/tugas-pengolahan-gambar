@@ -1,0 +1,142 @@
+body{
+    /* background-image: url("back.jpg"); */
+    background-size: 300px 100px;
+    background: url("ca.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-color: darkslategray; */
+}
+nav{
+    margin: 20px 0px 0px 0px;
+}
+a{
+    margin: 5px;
+    margin-left: 50px;
+}
+#wrapper{
+    text-align: center;
+    top: 33%;
+    left: 40%;
+    position: absolute;
+}
+.upload{
+    font-size: 16px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+}
+::-webkit-file-upload-button{
+    color: white;
+    background-color: #f5af09;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    /* box-shadow: 1px 0 1px 1px #a07000; */
+    outline: none;
+}
+::-webkit-file-upload-button:hover{
+    background-color: #c28800;
+}
+#output_image{
+    margin-top: 28px;
+    margin-left: -72px;
+    outline: none;
+}
+/* .frame{
+    width: 550px;
+    height: 430px;
+    margin-left: -101px;
+    margin-top: 14px;
+    background-color: #c28800;
+    text-align: center;
+} */
+.info{
+    margin: 20px;
+    width: 10px;
+    height: 10px;
+    /* background-color: #f5af09; */
+}
+.card{
+    opacity: 0;
+   
+}
+#uplo{
+    font-size: 20px;
+    background-color:#f5af09 ;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+    margin-top: 3px;
+    margin-left: 83px;
+}
+/* .pre_img{
+    background-color: #c28800;
+    width: 550px;
+    height: 420px;
+    margin-top: 15px;
+    margin-left: -92px;
+    text-align: center;
+    position: relative;
+} */
+.pre_img img{
+    width: 492px;
+    height: 372px;
+    background-color: #DBDBDB;
+}
+.pre_img span{
+    color: #6E6E6E ;
+    margin-left: -386px;
+}
+#uplo:hover{
+    background-color: #c28800;
+}
+.info i{
+    font-size: 30px;
+}
+.card-title, h6{
+    text-align: center;
+}
+.info:hover .card{
+    opacity: 1;
+    transition: 1s ease all;
+}
+h1{
+    position: absolute;
+    color: rgb(78, 78, 78);
+    top: 140;
+    left: 450;
+    justify-content: center;
+}
+
+h3{
+    position: absolute;
+    color: rgb(78, 78, 78);
+    top: 200;
+    left: 570;
+    justify-content: center;
+}
+footer{
+    padding: 30px ;
+    width: 100%;
+    display: flex;
+    color: #fff; 
+    margin-top: 42%;
+    position: fixed;
+}
+.container{
+ min-height: 80%;
+}
+
+#btn-preview{
+    display: block;
+}
+
+
+

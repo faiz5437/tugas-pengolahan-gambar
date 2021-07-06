@@ -1,0 +1,85 @@
+
+
+
+
+body{
+    /* background-image: url("back.jpg"); */
+    background-size: 300px 100px;
+    background: url("ca.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-color: darkslategray; */
+}
+nav{
+    margin: 20px 0px 0px 0px;
+}
+a{
+    margin: 5px;
+    margin-left: 50px;
+}
+
+#wrapper{
+    color: white;
+    background-color: #f5af09;
+    height: 70px;
+    width: 260px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#output-image{
+    background-color: #f5af09;
+    width: 500px;
+}
+.info{
+    margin: 20px;
+    width: 10px;
+    height: 10px;
+    /* background-color: #f5af09; */
+}
+.card{
+    opacity: 0;
+   
+}
+.card-title, h6{
+    text-align: center;
+}
+.info:hover .card{
+    opacity: 1;
+    transition: 1s ease all;
+}
+h1{
+    position: absolute;
+    color: rgb(78, 78, 78);
+    top: 200;
+    left: 450;
+    justify-content: center;
+}
+
+h3{
+    position: absolute;
+    color: rgb(78, 78, 78);
+    top: 270;
+    left: 570;
+    justify-content: center;
+}
+footer{
+    padding: 30px ;
+    width: 100%;
+    display: flex;
+    color: #fff; 
+}
+.container{
+ min-height: 80%;
+}
+
+
